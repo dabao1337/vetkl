@@ -2608,7 +2608,8 @@ header {
   line-height: 1.7;
 }
 
-[data-theme=dark] .text-all {
+[data-theme="dark"] .text-all,
+[data-theme="dark"] .title-shapka {
     color: var(--color-white);
 }
 
@@ -2643,3 +2644,4 @@ header {
     line-height: 1.5;
   }
 }
+
